@@ -1,0 +1,176 @@
+body {
+    min-height: 110vh;
+
+    background: #080d13;
+    background-image: url("/img/background.jpg");
+    background-image: url("/img/background.jpg"), linear-gradient(white, black);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+button:focus {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .nav-link:focus {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar .navbar-brand {
+    color: black;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .nav-link:focus {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+.bg-grad {
+    background: linear-gradient(to bottom right, #ffcb52, #ff7b02);
+    box-shadow: 10px 5px 20px #ff7b02;
+    border-radius: 30px;
+    padding: 20px;
+
+    max-width: 600px;
+
+    color: white;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+.reg-container {
+    max-width: 350px;
+    width: 100%;
+    margin: 40px 700px;
+
+    text-align: center;
+}
+
+.reg-form {
+    margin: 30px;
+}
+
+.reg-input:focus {
+    border: 1px solid #a8a8a8;
+}
+
+.reg-input {
+    outline: none;
+    font-size: 12px;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+
+    width: 250px;
+    height: 30px;
+}
+
+.reg-btn {
+    border: none;
+    width: 250px;
+    background-color: #ffcb52;
+}
+
+.reg-btn:hover {
+    width: 250px;
+    background-color: #ff7b02;
+}
+
+
+.login {
+    text-decoration: none;
+    color: #0095f6;
+}
+
+.login:hover {
+    text-decoration: none;
+    color: #0095f6;
+}
+
+.ask {
+    font-size: 14px;
+}
