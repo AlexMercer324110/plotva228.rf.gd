@@ -26,7 +26,7 @@
                         <?php if(@$_SESSION['authorized']): ?>
                         <div class="bg-grad">
                             <h1 class="font-weight-bold">Email:</h1>
-                            <h4><a class="font-weight-bold ml-4 link" href="mailto:inteleva12@gmail.com">inteleva12@gmail.com</a></h4>
+                            <h4><a class="font-weight-bold ml-4 link" href="mailto:alex.mercer.324110@gmail.com">alex.mercer.324110@gmail.com</a></h4>
                         </div><? else: ?>
                         <div class="bg-grad">
                             <h4 class="font-weight-bold">Чтобы увидеть email - <a class="link" href="/reg/auth.php">авторизуйтесь</a></h4>
